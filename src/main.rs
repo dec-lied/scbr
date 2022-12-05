@@ -16,7 +16,7 @@ fn main()
                 command:\t\t\t\tdescription: \n\
                 --------\t\t\t\t------------ \n\
                 {}\t\t\t\tthis help message \n\
-                {}\t\t\t\tlists available build orders(in C:\\Users\\Gavin\\sc2) \n\
+                {}\t\t\t\tlists available build orders(in cargo_manifest_dir/build_orders) \n\
                 {}\tstarts reading build order in real time. defer waits until apostraphe is clicked, then starts reading the build order \n",
                 
                 "scbr help".red(),

@@ -4,7 +4,7 @@ pub fn list_build_orders()
 {
     use colored::Colorize;
     
-    if let Ok(entries) = std::fs::read_dir("C:\\Users\\Gavin\\sc2\\")
+    if let Ok(entries) = std::fs::read_dir(concat!(env!("CARGO_MANIFEST_DIR"), "\\build_orders"))
     {
         for entry in entries
         {
